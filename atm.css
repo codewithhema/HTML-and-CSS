@@ -1,0 +1,136 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    display:flex;
+    height:80vh;
+    justify-content:center;
+    align-items:center;
+    font-family:sans-serif;
+    
+}
+.card{
+    position:relative;
+    width:310px;
+    height:180px;
+    box-shadow:5px 10px 20px black;
+    z-index:-1;
+    
+
+}
+
+.backcolor{
+    width:310px;
+    height:180px;
+    background-image :linear-gradient(to right,
+    rgba(63, 60, 60, 0.507),
+    rgba(75, 75, 73, 0.671),
+    rgb(102, 102, 99));
+    border-radius:17px, 10px;
+
+    position:absolute;
+    z-index:0;  
+
+}
+
+.halfcircle{
+    height:200px;
+    width:200px;
+    background-image:radial-gradient(rgba(107, 107, 105, 0.747),
+    rgba(70, 69, 69, 0.699));
+    clip-path:circle(70% at 92% 20%);
+    position:absolute;
+    right:0px;
+    border-radius:17px, 10px;
+
+
+}
+.circle{
+    width:35px;
+    height:35px;
+    border-radius:50%;
+    opacity:0.9;
+    position:absolute;
+}
+.circle1{ 
+    background-color:rgb(238, 255, 1);
+    right:15px;
+    bottom:30px;
+}
+
+.circle2{
+    background-color:rgba(255, 0, 0, 0.712);
+    right:2px;
+    bottom:30px;
+}
+
+
+
+.mastercard{
+    font-size:17px;
+    color:white;
+    position:absolute;
+    right:5px;
+    bottom:14px;
+}
+
+.cardnumber{
+    font-size: 17px;
+    color:white;
+    left:10px;
+    position:absolute;
+    letter-spacing: 4px;
+   text-shadow:0 0 2px black;
+   left:20px;
+   bottom:75px;
+ 
+}
+.span{
+    margin-inline: 19px;;
+}
+
+
+.name{
+    position:absolute;
+    color:white;
+    text-shadow: 0 0 1px rgb(71, 71, 71);
+    left:20px;
+    bottom:15px;
+    font-size:14px;
+}
+.date{
+
+    position:absolute;
+    color:rgb(7, 7, 7);
+    text-shadow: 0 0 1px black;
+    left:20px;
+    bottom:40px;
+    font-size:14px;
+}
+.yourbankname{
+    position:absolute;
+    color:white;
+    text-shadow:0 0 1px black;
+    top:15px;
+    right:10px;
+    font-size: 17px;
+}
+i{
+color:white;
+position:absolute;
+left:75px;
+top:54px;
+rotate:90deg;
+}
+.circuit{
+    position:absolute;
+    left:30px;
+    top:50px;
+}
+img{
+    height:20px;
+    width:20px;
+    border-radius: 5px;
+
+}
